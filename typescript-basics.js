@@ -22,9 +22,15 @@ console.log(num,num2)
 //boolen
 let boo = true
 
+//Object
+let obj = {}
+
+
 //Array
 let Arr = [1,2.2,true,"praneeth" ]
 console.log(Arr)
+
+//Reg
 
 
 
