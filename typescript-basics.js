@@ -10,7 +10,9 @@ console.log(_variable)
 console.log($variable)
 
 //String
-let str = "hello"
+console.log("hi") //String in Literal
+let str = "hello" //String in variable type
+console.log('hi' + 'llo') // String in Exression
 let str2 = `${str}, Praneeth`
 console.log(str2)
 
@@ -31,6 +33,19 @@ let Arr = [1,2.2,true,"praneeth" ]
 console.log(Arr)
 
 //Reg
+let re = /abc/
 
+//undefined, null
+let val1
+let tempobj = null
 
+console.log(`the type of the variable is: ${typeof variable}`) //string
+console.log(`the type of the number is: ${typeof num}`) //number
+console.log(`the type of the string is: ${typeof str}`) //string
+console.log(`the type of the boolean is: ${typeof boo}`) //Boolean
+console.log(`the type of the object is: ${typeof obj}`) //object
+console.log(`the type of the Array is: ${typeof Arr}`) //object
+console.log(`the type of the regexp is: ${typeof re}`) //object
+console.log(`the type of the undefined is: ${typeof val1}`) //Undefined
+console.log(`the type of the null is: ${typeof tempobj}`) //object
 
